@@ -1,0 +1,17 @@
+common_data:
+  story: 轮播图
+  description: 轮播图接口测试
+  severity: 'normal'
+  testcase: http://admin.5istudy.online/banners/
+
+test_banners:
+    detail: banners
+    url: banners/
+    method: get
+    headers:
+    requestType: json
+    status_code: 200
+    assert_data:
+    type: is not
+    value: None
+    success: True

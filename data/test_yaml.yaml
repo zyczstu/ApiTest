@@ -1,0 +1,43 @@
+test_case_01:
+  - story: 登录测试_动态_函数
+    description: 使用正确的账号密码进行测试_动态_函数
+    severity: 'blocker'
+    testcase: http://sellshop.5istudy.online/sell/user/login
+    request:
+      url: user/login
+      method: post
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+      data:
+        username: test01
+        password: 123456
+
+test_case_02:
+  - story: 页面搜索测试_动态
+    description: 切换后台页面_动态
+    severity: 'normal'
+    testcase: http://sellshop.5istudy.online/sell/seller/order/list?page=2&size=10
+    name: test_search
+    request:
+      url: seller/order/list?page=2&size=10
+      method: get
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+      data: None
+      page: 2
+
+test_register:
+  - story: 注册
+    description: 获取code
+    severity: 'normal'
+    testcase: http://meikefresh.5istudy.online/#/app/register
+    request:
+      url: code/
+      method: post
+      json:
+        mobile: 15312345678
+
+test_case_03:
+  - name: ${random_name()}
+    age: ${random_age()}
+    phone: ${random_phone()}

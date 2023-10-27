@@ -1,0 +1,68 @@
+common_data:
+  story: 个人留言模块
+  description: 测试添加个人留言功能；
+  severity: 'normal'
+  testcase: http://admin.5istudy.online/messages/
+
+test_add_message01:
+    detail: type1_add_message
+    url: messages/
+    method: post
+    requestType: data
+    file: c.png
+    file_content_type: image/jpeg
+    data:
+      subject: 留言测试
+      message: 留言
+      message_type: 1
+    status_code: 201
+    assert_data1: subject
+    assert_data2: message
+    assert_data3: message_type
+    type: ==
+    assert_value1: 留言测试
+    assert_value2: 留言
+    assert_value3: 1
+    success: True
+
+test_add_message02:
+    detail: type2_add_complaints
+    url: messages/
+    method: post
+    requestType: data
+    file: c.png
+    file_content_type: image/jpeg
+    data:
+      subject: 投诉测试
+      message: 投诉
+      message_type: 2
+    status_code: 201
+    assert_data1: subject
+    assert_data2: message
+    assert_data3: message_type
+    type: ==
+    assert_value1: 投诉测试
+    assert_value2: 投诉
+    assert_value3: 2
+    success: True
+
+test_add_message03:
+    detail: type3_add_enquiry
+    url: messages/
+    method: post
+    requestType: data
+    file: c.png
+    file_content_type: image/jpeg
+    data:
+      subject: 询问测试
+      message: 询问
+      message_type: 3
+    status_code: 201
+    assert_data1: subject
+    assert_data2: message
+    assert_data3: message_type
+    type: ==
+    assert_value1: 询问测试
+    assert_value2: 询问
+    assert_value3: 3
+    success: True

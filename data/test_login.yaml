@@ -1,0 +1,81 @@
+common_data:
+  story: 登录功能测试
+  description: 测试登录功能，步骤：1.输入账号密码，点击登录；
+  severity: 'normal'
+  testcase: http://admin.5istudy.online/login/
+
+test_login01:
+    detail: normal login
+    url: login/
+    method: post
+    headers:
+    requestType: json
+    data:
+      username: 18261778923
+      password: 123456
+    status_code: 200
+    assert_data: token
+    type: is not
+    value: None
+    success: True
+
+
+test_login02:
+    detail: Wrong password
+    url: login/
+    method: post
+    headers:
+    requestType: json
+    data:
+      username: 18261778923
+      password: 12345
+    status_code: 400
+    assert_data: non_field_errors
+    type: ==
+    value: ["无法使用提供的认证信息登录。"]
+    success: False
+
+test_login03:
+    detail: Account Error
+    url: login/
+    method: post
+    headers:
+    requestType: json
+    data:
+      username: 1826177892
+      password: 123456
+    status_code: 400
+    assert_data: non_field_errors
+    type: ==
+    value: ["无法使用提供的认证信息登录。"]
+    success: False
+
+test_login04:
+    detail: Account empty
+    url: login/
+    method: post
+    headers:
+    requestType: json
+    data:
+      username:
+      password: 123456
+    status_code: 400
+    assert_data: username
+    type: ==
+    value: ["该字段不能为 null。"]
+    success: False
+
+test_login05:
+    detail: password empty
+    url: login/
+    method: post
+    headers:
+    requestType: json
+    data:
+      username: 18261778923
+      password:
+    status_code: 400
+    assert_data: password
+    type: ==
+    value: ["该字段不能为 null。"]
+    success: False

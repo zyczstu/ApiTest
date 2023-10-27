@@ -1,0 +1,511 @@
+2023-10-26T10:01:24.959068+0800 INFO ------------------Mysql连接成功------------------
+2023-10-26T10:01:26.323912+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T10:01:26.323912+0800 INFO 测试方法为: post
+2023-10-26T10:01:26.474284+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg4OTA0ODYsImVtYWlsIjpudWxsfQ.0vO6NgKyIFMAJgO2ET6aCzKjSScpN-YIAdPFPb_IlGU"}
+2023-10-26T10:01:26.504214+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T10:01:26.504214+0800 INFO 测试方法为: post
+2023-10-26T10:01:26.506650+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg4OTA0ODYsImVtYWlsIjpudWxsfQ.0vO6NgKyIFMAJgO2ET6aCzKjSScpN-YIAdPFPb_IlGU"
+}
+2023-10-26T10:01:26.541582+0800 INFO 接口返回内容为 >> {"nums": 23, "goods": 66}
+2023-10-26T10:01:26.541582+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T10:01:26.555255+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T10:01:26.555762+0800 INFO sql返回{'id': 228586}
+2023-10-26T10:01:26.555762+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=66;
+2023-10-26T10:01:26.563751+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T10:01:26.564281+0800 INFO sql返回{'nums': 23}
+2023-10-26T10:01:26.584068+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T10:01:26.584068+0800 INFO 测试方法为: post
+2023-10-26T10:01:26.584068+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg4OTA0ODYsImVtYWlsIjpudWxsfQ.0vO6NgKyIFMAJgO2ET6aCzKjSScpN-YIAdPFPb_IlGU"
+}
+2023-10-26T10:01:26.619054+0800 INFO 接口返回内容为 >> {"nums": 3, "goods": 3}
+2023-10-26T10:01:26.619054+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T10:01:26.633014+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T10:01:26.633014+0800 INFO sql返回{'id': 228586}
+2023-10-26T10:01:26.633553+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=3;
+2023-10-26T10:01:26.641099+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T10:01:26.641099+0800 INFO sql返回{'nums': 3}
+2023-10-26T10:01:26.653642+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T10:01:26.654639+0800 INFO 测试方法为: post
+2023-10-26T10:01:26.654639+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg4OTA0ODYsImVtYWlsIjpudWxsfQ.0vO6NgKyIFMAJgO2ET6aCzKjSScpN-YIAdPFPb_IlGU"
+}
+2023-10-26T10:01:26.690402+0800 INFO 接口返回内容为 >> {"nums": 3, "goods": 7}
+2023-10-26T10:01:26.690402+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T10:01:26.704092+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T10:01:26.704092+0800 INFO sql返回{'id': 228586}
+2023-10-26T10:01:26.704632+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=7;
+2023-10-26T10:01:26.712570+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T10:01:26.713122+0800 INFO sql返回{'nums': 3}
+2023-10-26T14:50:22.885303+0800 INFO ------------------Mysql连接成功------------------
+2023-10-26T14:50:23.437231+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T14:50:23.437231+0800 INFO 测试方法为: post
+2023-10-26T14:50:24.866953+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDc4MjQsImVtYWlsIjpudWxsfQ.KrkvOIyU72fvOkw-ZTJaPMeVFssrKSIFIofCS78x0Yo"}
+2023-10-26T14:50:24.893752+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T14:50:24.893752+0800 INFO 测试方法为: post
+2023-10-26T14:50:24.894316+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDc4MjQsImVtYWlsIjpudWxsfQ.KrkvOIyU72fvOkw-ZTJaPMeVFssrKSIFIofCS78x0Yo"
+}
+2023-10-26T14:50:24.942327+0800 INFO 接口返回内容为 >> {"subject": ["该字段是必填项。"], "message": ["该字段是必填项。"]}
+2023-10-26T14:50:24.942327+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-26T14:52:43.922439+0800 INFO ------------------Mysql连接成功------------------
+2023-10-26T14:52:44.122067+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T14:52:44.122067+0800 INFO 测试方法为: post
+2023-10-26T14:52:44.231942+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDc5NjMsImVtYWlsIjpudWxsfQ.YExU6GXGfLxhtazkuLvMxA2e2E_fxF-_y_LmILJxz68"}
+2023-10-26T14:53:27.763824+0800 INFO ------------------Mysql连接成功------------------
+2023-10-26T14:53:27.968298+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T14:53:27.968298+0800 INFO 测试方法为: post
+2023-10-26T14:53:28.080572+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDgwMDcsImVtYWlsIjpudWxsfQ.bmxZ8gvi1UNc1ESkD1G5j6meFszHlVWMo3MyAzg9kn0"}
+2023-10-26T15:00:08.712002+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:00:08.712002+0800 INFO 测试方法为: post
+2023-10-26T15:00:08.819858+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDg0MDgsImVtYWlsIjpudWxsfQ.pHCb7PiOIxjLdVn6Tf5GGJqjiyBY6xPr03NZtGnCUjI"}
+2023-10-26T15:04:32.925711+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:04:32.925711+0800 INFO 测试方法为: post
+2023-10-26T15:04:33.357269+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDg2NzMsImVtYWlsIjpudWxsfQ.1NVM9vBy-rVNrt42PYVk5BJNX2KCtJpWSqzcH2hO9PE"}
+2023-10-26T15:05:21.430349+0800 INFO ------------------Mysql连接成功------------------
+2023-10-26T15:05:21.650359+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:05:21.650359+0800 INFO 测试方法为: post
+2023-10-26T15:05:21.760902+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDg3MjEsImVtYWlsIjpudWxsfQ.sQ56ZA2TF6rkzKCNU8vhNzas8nEOSqkDLzcxS7ZF1Gk"}
+2023-10-26T15:05:21.787823+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T15:05:21.787823+0800 INFO 测试方法为: post
+2023-10-26T15:05:21.787823+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDg3MjEsImVtYWlsIjpudWxsfQ.sQ56ZA2TF6rkzKCNU8vhNzas8nEOSqkDLzcxS7ZF1Gk"
+}
+2023-10-26T15:05:21.812948+0800 INFO 接口返回内容为 >> {"nums": 24, "goods": 66}
+2023-10-26T15:05:21.812948+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T15:05:21.826083+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:05:21.826555+0800 INFO sql返回{'id': 228586}
+2023-10-26T15:05:21.826555+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=66;
+2023-10-26T15:05:21.833582+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:05:21.833582+0800 INFO sql返回{'nums': 24}
+2023-10-26T15:05:21.845586+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T15:05:21.846583+0800 INFO 测试方法为: post
+2023-10-26T15:05:21.846583+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDg3MjEsImVtYWlsIjpudWxsfQ.sQ56ZA2TF6rkzKCNU8vhNzas8nEOSqkDLzcxS7ZF1Gk"
+}
+2023-10-26T15:05:21.870779+0800 INFO 接口返回内容为 >> {"nums": 4, "goods": 3}
+2023-10-26T15:05:21.871778+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T15:05:21.884741+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:05:21.885778+0800 INFO sql返回{'id': 228586}
+2023-10-26T15:05:21.885778+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=3;
+2023-10-26T15:05:21.893729+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:05:21.893729+0800 INFO sql返回{'nums': 4}
+2023-10-26T15:05:21.906736+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T15:05:21.906736+0800 INFO 测试方法为: post
+2023-10-26T15:05:21.906736+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDg3MjEsImVtYWlsIjpudWxsfQ.sQ56ZA2TF6rkzKCNU8vhNzas8nEOSqkDLzcxS7ZF1Gk"
+}
+2023-10-26T15:05:21.930644+0800 INFO 接口返回内容为 >> {"nums": 4, "goods": 7}
+2023-10-26T15:05:21.930644+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T15:05:21.947462+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:05:21.947462+0800 INFO sql返回{'id': 228586}
+2023-10-26T15:05:21.947462+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=7;
+2023-10-26T15:05:21.955480+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:05:21.955480+0800 INFO sql返回{'nums': 4}
+2023-10-26T15:08:28.742677+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:08:28.742677+0800 INFO 测试方法为: post
+2023-10-26T15:08:28.856306+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDg5MDgsImVtYWlsIjpudWxsfQ.7uM-JEXabjW-rl6GihQ9a7YyeNJgCIsbnnnEyhxt_14"}
+2023-10-26T15:08:28.860303+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:08:28.861299+0800 INFO 测试方法为: post
+2023-10-26T15:08:28.862297+0800 INFO data参数为
+{
+  "subject": "留言测试",
+  "message": "留言",
+  "message_type": 1
+}
+2023-10-26T15:08:28.862297+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDg5MDgsImVtYWlsIjpudWxsfQ.7uM-JEXabjW-rl6GihQ9a7YyeNJgCIsbnnnEyhxt_14"
+}
+2023-10-26T15:08:28.920371+0800 INFO 接口返回内容为 >> {"message_type": 1, "subject": "留言测试", "message": "留言", "file": "http://admin.5istudy.online/media/message/images/c_GZnWXFv.png", "id": 102438, "add_time": "2023-10-26 15:08:28"}
+2023-10-26T15:08:28.928375+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:08:28.929385+0800 INFO 测试方法为: post
+2023-10-26T15:08:28.929385+0800 INFO data参数为
+{
+  "subject": "投诉测试",
+  "message": "投诉",
+  "message_type": 2
+}
+2023-10-26T15:08:28.929385+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDg5MDgsImVtYWlsIjpudWxsfQ.7uM-JEXabjW-rl6GihQ9a7YyeNJgCIsbnnnEyhxt_14"
+}
+2023-10-26T15:08:28.961104+0800 INFO 接口返回内容为 >> {"message_type": 2, "subject": "投诉测试", "message": "投诉", "file": "http://admin.5istudy.online/media/message/images/c_TPcwjwO.png", "id": 102439, "add_time": "2023-10-26 15:08:28"}
+2023-10-26T15:08:28.966091+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:08:28.966091+0800 INFO 测试方法为: post
+2023-10-26T15:08:28.966091+0800 INFO data参数为
+{
+  "subject": "询问测试",
+  "message": "询问",
+  "message_type": 3
+}
+2023-10-26T15:08:28.966091+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDg5MDgsImVtYWlsIjpudWxsfQ.7uM-JEXabjW-rl6GihQ9a7YyeNJgCIsbnnnEyhxt_14"
+}
+2023-10-26T15:08:29.002033+0800 INFO 接口返回内容为 >> {"message_type": 3, "subject": "询问测试", "message": "询问", "file": "http://admin.5istudy.online/media/message/images/c_t3yNRis.png", "id": 102440, "add_time": "2023-10-26 15:08:28"}
+2023-10-26T15:12:52.666244+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:12:52.666244+0800 INFO 测试方法为: post
+2023-10-26T15:12:52.773248+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkxNzIsImVtYWlsIjpudWxsfQ.nWc60SW-bAcpkNgZvRpcPR6g_A2X9aB5vRxV4IiFwmc"}
+2023-10-26T15:12:52.778209+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:12:52.778209+0800 INFO 测试方法为: post
+2023-10-26T15:12:52.779247+0800 INFO data参数为
+{
+  "subject": "留言测试",
+  "message": "留言",
+  "message_type": 1
+}
+2023-10-26T15:12:52.780191+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkxNzIsImVtYWlsIjpudWxsfQ.nWc60SW-bAcpkNgZvRpcPR6g_A2X9aB5vRxV4IiFwmc"
+}
+2023-10-26T15:12:52.840719+0800 INFO 接口返回内容为 >> {"message_type": 1, "subject": "留言测试", "message": "留言", "file": "http://admin.5istudy.online/media/message/images/c_apbXY0Y.png", "id": 102441, "add_time": "2023-10-26 15:12:52"}
+2023-10-26T15:12:52.846702+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:12:52.846702+0800 INFO 测试方法为: post
+2023-10-26T15:12:52.847699+0800 INFO data参数为
+{
+  "subject": "投诉测试",
+  "message": "投诉",
+  "message_type": 2
+}
+2023-10-26T15:12:52.847699+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkxNzIsImVtYWlsIjpudWxsfQ.nWc60SW-bAcpkNgZvRpcPR6g_A2X9aB5vRxV4IiFwmc"
+}
+2023-10-26T15:12:52.882637+0800 INFO 接口返回内容为 >> {"message_type": 2, "subject": "投诉测试", "message": "投诉", "file": "http://admin.5istudy.online/media/message/images/c_gCVW6tu.png", "id": 102442, "add_time": "2023-10-26 15:12:52"}
+2023-10-26T15:12:52.887592+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:12:52.888589+0800 INFO 测试方法为: post
+2023-10-26T15:12:52.888589+0800 INFO data参数为
+{
+  "subject": "询问测试",
+  "message": "询问",
+  "message_type": 3
+}
+2023-10-26T15:12:52.888589+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkxNzIsImVtYWlsIjpudWxsfQ.nWc60SW-bAcpkNgZvRpcPR6g_A2X9aB5vRxV4IiFwmc"
+}
+2023-10-26T15:12:52.923497+0800 INFO 接口返回内容为 >> {"message_type": 3, "subject": "询问测试", "message": "询问", "file": "http://admin.5istudy.online/media/message/images/c_SrmTmoK.png", "id": 102443, "add_time": "2023-10-26 15:12:52"}
+2023-10-26T15:13:28.479137+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:13:28.479137+0800 INFO 测试方法为: post
+2023-10-26T15:13:28.588866+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkyMDgsImVtYWlsIjpudWxsfQ.WVYUM3pprt0cQ4_WcJ7FtcndFVbgqaOCtWD0FgjXYK8"}
+2023-10-26T15:13:28.594848+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:13:28.594848+0800 INFO 测试方法为: post
+2023-10-26T15:13:28.595856+0800 INFO data参数为
+{
+  "subject": "留言测试",
+  "message": "留言",
+  "message_type": 1
+}
+2023-10-26T15:13:28.596854+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkyMDgsImVtYWlsIjpudWxsfQ.WVYUM3pprt0cQ4_WcJ7FtcndFVbgqaOCtWD0FgjXYK8"
+}
+2023-10-26T15:13:28.646732+0800 INFO 接口返回内容为 >> {"message_type": 1, "subject": "留言测试", "message": "留言", "file": "http://admin.5istudy.online/media/message/images/c_O8c09sQ.png", "id": 102444, "add_time": "2023-10-26 15:13:28"}
+2023-10-26T15:13:28.653620+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:13:28.654617+0800 INFO 测试方法为: post
+2023-10-26T15:13:28.654617+0800 INFO data参数为
+{
+  "subject": "投诉测试",
+  "message": "投诉",
+  "message_type": 2
+}
+2023-10-26T15:13:28.654617+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkyMDgsImVtYWlsIjpudWxsfQ.WVYUM3pprt0cQ4_WcJ7FtcndFVbgqaOCtWD0FgjXYK8"
+}
+2023-10-26T15:13:28.691519+0800 INFO 接口返回内容为 >> {"message_type": 2, "subject": "投诉测试", "message": "投诉", "file": "http://admin.5istudy.online/media/message/images/c_OtoDL2Z.png", "id": 102445, "add_time": "2023-10-26 15:13:28"}
+2023-10-26T15:13:28.697503+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:13:28.698502+0800 INFO 测试方法为: post
+2023-10-26T15:13:28.698502+0800 INFO data参数为
+{
+  "subject": "询问测试",
+  "message": "询问",
+  "message_type": 3
+}
+2023-10-26T15:13:28.698502+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkyMDgsImVtYWlsIjpudWxsfQ.WVYUM3pprt0cQ4_WcJ7FtcndFVbgqaOCtWD0FgjXYK8"
+}
+2023-10-26T15:13:28.741435+0800 INFO 接口返回内容为 >> {"message_type": 3, "subject": "询问测试", "message": "询问", "file": "http://admin.5istudy.online/media/message/images/c_YDzVOnh.png", "id": 102446, "add_time": "2023-10-26 15:13:28"}
+2023-10-26T15:13:40.386262+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:13:40.386262+0800 INFO 测试方法为: post
+2023-10-26T15:13:40.518527+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkyMjAsImVtYWlsIjpudWxsfQ.UGSRuj_UMRJ6ZPeUXJ-F0bEJMH47lAoiv0YqcFMF1NU"}
+2023-10-26T15:13:40.519523+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:13:40.519523+0800 INFO 测试方法为: post
+2023-10-26T15:13:40.519523+0800 INFO data参数为
+{
+  "subject": "留言测试",
+  "message": "留言",
+  "message_type": 1
+}
+2023-10-26T15:13:40.520520+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkyMjAsImVtYWlsIjpudWxsfQ.UGSRuj_UMRJ6ZPeUXJ-F0bEJMH47lAoiv0YqcFMF1NU"
+}
+2023-10-26T15:13:40.582754+0800 INFO 接口返回内容为 >> {"message_type": 1, "subject": "留言测试", "message": "留言", "file": "http://admin.5istudy.online/media/message/images/c_z78pMuT.png", "id": 102447, "add_time": "2023-10-26 15:13:40"}
+2023-10-26T15:13:40.597710+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:13:40.598670+0800 INFO 测试方法为: post
+2023-10-26T15:13:40.599705+0800 INFO data参数为
+{
+  "subject": "投诉测试",
+  "message": "投诉",
+  "message_type": 2
+}
+2023-10-26T15:13:40.599705+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkyMjAsImVtYWlsIjpudWxsfQ.UGSRuj_UMRJ6ZPeUXJ-F0bEJMH47lAoiv0YqcFMF1NU"
+}
+2023-10-26T15:13:40.640494+0800 INFO 接口返回内容为 >> {"message_type": 2, "subject": "投诉测试", "message": "投诉", "file": "http://admin.5istudy.online/media/message/images/c_QgrXM6P.png", "id": 102448, "add_time": "2023-10-26 15:13:40"}
+2023-10-26T15:13:40.646441+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:13:40.646441+0800 INFO 测试方法为: post
+2023-10-26T15:13:40.647439+0800 INFO data参数为
+{
+  "subject": "询问测试",
+  "message": "询问",
+  "message_type": 3
+}
+2023-10-26T15:13:40.647439+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MDkyMjAsImVtYWlsIjpudWxsfQ.UGSRuj_UMRJ6ZPeUXJ-F0bEJMH47lAoiv0YqcFMF1NU"
+}
+2023-10-26T15:13:40.682881+0800 INFO 接口返回内容为 >> {"message_type": 3, "subject": "询问测试", "message": "询问", "file": "http://admin.5istudy.online/media/message/images/c_eBREjl0.png", "id": 102449, "add_time": "2023-10-26 15:13:40"}
+2023-10-26T15:52:20.485587+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:52:20.485587+0800 INFO 测试方法为: post
+2023-10-26T15:52:21.842230+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE1NDEsImVtYWlsIjpudWxsfQ.dU8HcI8nc3kz3GD84OlQnYwEIou_eH8g3xUqChisS4I"}
+2023-10-26T15:52:21.846176+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:52:21.847200+0800 INFO 测试方法为: post
+2023-10-26T15:52:21.847200+0800 INFO data参数为
+{
+  "subject": "留言测试",
+  "message": "留言",
+  "message_type": 1
+}
+2023-10-26T15:53:17.096652+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:53:17.096652+0800 INFO 测试方法为: post
+2023-10-26T15:53:17.211545+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE1OTYsImVtYWlsIjpudWxsfQ.--hVXGKzc1FsR7IRAksjxD8RCqZGL_Pq3W5YW4BQoTw"}
+2023-10-26T15:53:17.212586+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:53:17.213578+0800 INFO 测试方法为: post
+2023-10-26T15:53:17.213578+0800 INFO data参数为
+{
+  "subject": "留言测试",
+  "message": "留言",
+  "message_type": 1
+}
+2023-10-26T15:53:17.213578+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE1OTYsImVtYWlsIjpudWxsfQ.--hVXGKzc1FsR7IRAksjxD8RCqZGL_Pq3W5YW4BQoTw"
+}
+2023-10-26T15:53:17.267514+0800 INFO 接口返回内容为 >> {"message_type": 1, "subject": "留言测试", "message": "留言", "file": "http://admin.5istudy.online/media/message/images/c_0YQIqay.png", "id": 102451, "add_time": "2023-10-26 15:53:16"}
+2023-10-26T15:53:17.282426+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:53:17.283461+0800 INFO 测试方法为: post
+2023-10-26T15:53:17.284466+0800 INFO data参数为
+{
+  "subject": "投诉测试",
+  "message": "投诉",
+  "message_type": 2
+}
+2023-10-26T15:53:17.285411+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE1OTYsImVtYWlsIjpudWxsfQ.--hVXGKzc1FsR7IRAksjxD8RCqZGL_Pq3W5YW4BQoTw"
+}
+2023-10-26T15:53:17.318110+0800 INFO 接口返回内容为 >> {"message_type": 2, "subject": "投诉测试", "message": "投诉", "file": "http://admin.5istudy.online/media/message/images/c_LjFK8LG.png", "id": 102452, "add_time": "2023-10-26 15:53:16"}
+2023-10-26T15:53:17.326088+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:53:17.326088+0800 INFO 测试方法为: post
+2023-10-26T15:53:17.326088+0800 INFO data参数为
+{
+  "subject": "询问测试",
+  "message": "询问",
+  "message_type": 3
+}
+2023-10-26T15:53:17.326088+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE1OTYsImVtYWlsIjpudWxsfQ.--hVXGKzc1FsR7IRAksjxD8RCqZGL_Pq3W5YW4BQoTw"
+}
+2023-10-26T15:53:17.364381+0800 INFO 接口返回内容为 >> {"message_type": 3, "subject": "询问测试", "message": "询问", "file": "http://admin.5istudy.online/media/message/images/c_dFfhxIR.png", "id": 102453, "add_time": "2023-10-26 15:53:17"}
+2023-10-26T15:53:38.677719+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:53:38.679676+0800 INFO 测试方法为: post
+2023-10-26T15:53:38.789469+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE2MTgsImVtYWlsIjpudWxsfQ.z8p02iZ-PokNzf82_-t-Or5tpADy65Spa7VemBdY3Kw"}
+2023-10-26T15:54:27.012884+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:54:27.201820+0800 INFO 测试方法为: post
+2023-10-26T15:54:27.597756+0800 INFO data参数为
+{
+  "subject": "留言测试",
+  "message": "留言",
+  "message_type": 1
+}
+2023-10-26T15:54:28.322305+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE2MTgsImVtYWlsIjpudWxsfQ.z8p02iZ-PokNzf82_-t-Or5tpADy65Spa7VemBdY3Kw"
+}
+2023-10-26T15:54:32.656367+0800 INFO 接口返回内容为 >> {"message_type": 1, "subject": "留言测试", "message": "留言", "file": "http://admin.5istudy.online/media/message/images/c_FNtsqWz.png", "id": 102454, "add_time": "2023-10-26 15:54:28"}
+2023-10-26T15:57:50.291463+0800 INFO ------------------Mysql连接成功------------------
+2023-10-26T15:57:50.496536+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:57:50.496536+0800 INFO 测试方法为: post
+2023-10-26T15:57:50.606072+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4NzAsImVtYWlsIjpudWxsfQ.AxMZ7wZdqX4NUoKaGqqE7kYGZ_j26jkHsJE6jH6BBLM"}
+2023-10-26T15:57:50.614093+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T15:57:50.614093+0800 INFO 测试方法为: post
+2023-10-26T15:57:50.615087+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4NzAsImVtYWlsIjpudWxsfQ.AxMZ7wZdqX4NUoKaGqqE7kYGZ_j26jkHsJE6jH6BBLM"
+}
+2023-10-26T15:57:50.639031+0800 INFO 接口返回内容为 >> {"nums": 25, "goods": 66}
+2023-10-26T15:57:50.639031+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T15:57:50.653067+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:57:50.654066+0800 INFO sql返回{'id': 228586}
+2023-10-26T15:57:50.654066+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=66;
+2023-10-26T15:57:50.665053+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:57:50.666082+0800 INFO sql返回{'nums': 25}
+2023-10-26T15:57:50.688096+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T15:57:50.689061+0800 INFO 测试方法为: post
+2023-10-26T15:57:50.689061+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4NzAsImVtYWlsIjpudWxsfQ.AxMZ7wZdqX4NUoKaGqqE7kYGZ_j26jkHsJE6jH6BBLM"
+}
+2023-10-26T15:57:50.714488+0800 INFO 接口返回内容为 >> {"nums": 5, "goods": 3}
+2023-10-26T15:57:50.714488+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T15:57:50.730803+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:57:50.731768+0800 INFO sql返回{'id': 228586}
+2023-10-26T15:57:50.731768+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=3;
+2023-10-26T15:57:50.740812+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:57:50.740812+0800 INFO sql返回{'nums': 5}
+2023-10-26T15:57:50.754775+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T15:57:50.754775+0800 INFO 测试方法为: post
+2023-10-26T15:57:50.754775+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4NzAsImVtYWlsIjpudWxsfQ.AxMZ7wZdqX4NUoKaGqqE7kYGZ_j26jkHsJE6jH6BBLM"
+}
+2023-10-26T15:57:50.779109+0800 INFO 接口返回内容为 >> {"nums": 5, "goods": 7}
+2023-10-26T15:57:50.779109+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T15:57:50.793973+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:57:50.793973+0800 INFO sql返回{'id': 228586}
+2023-10-26T15:57:50.793973+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=7;
+2023-10-26T15:57:50.802319+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:57:50.802319+0800 INFO sql返回{'nums': 5}
+2023-10-26T15:58:01.416855+0800 INFO ------------------Mysql连接成功------------------
+2023-10-26T15:58:02.279571+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:58:02.279571+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.389071+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4ODIsImVtYWlsIjpudWxsfQ.GZ_GoiJTxcpG2Kv1xB17RDTAfHA7oQb00EC1bRL8mlk"}
+2023-10-26T15:58:02.391071+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:58:02.391071+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.391071+0800 INFO data参数为
+{
+  "subject": "留言测试",
+  "message": "留言",
+  "message_type": 1
+}
+2023-10-26T15:58:02.391071+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4ODIsImVtYWlsIjpudWxsfQ.GZ_GoiJTxcpG2Kv1xB17RDTAfHA7oQb00EC1bRL8mlk"
+}
+2023-10-26T15:58:02.439795+0800 INFO 接口返回内容为 >> {"message_type": 1, "subject": "留言测试", "message": "留言", "file": "http://admin.5istudy.online/media/message/images/c_tUgxpgR.png", "id": 102455, "add_time": "2023-10-26 15:58:02"}
+2023-10-26T15:58:02.442814+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:58:02.442814+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.443808+0800 INFO data参数为
+{
+  "subject": "投诉测试",
+  "message": "投诉",
+  "message_type": 2
+}
+2023-10-26T15:58:02.443808+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4ODIsImVtYWlsIjpudWxsfQ.GZ_GoiJTxcpG2Kv1xB17RDTAfHA7oQb00EC1bRL8mlk"
+}
+2023-10-26T15:58:02.481238+0800 INFO 接口返回内容为 >> {"message_type": 2, "subject": "投诉测试", "message": "投诉", "file": "http://admin.5istudy.online/media/message/images/c_QNEddnI.png", "id": 102456, "add_time": "2023-10-26 15:58:02"}
+2023-10-26T15:58:02.487221+0800 INFO 测试url为: http://admin.5istudy.online/messages/
+2023-10-26T15:58:02.487221+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.487221+0800 INFO data参数为
+{
+  "subject": "询问测试",
+  "message": "询问",
+  "message_type": 3
+}
+2023-10-26T15:58:02.487221+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4ODIsImVtYWlsIjpudWxsfQ.GZ_GoiJTxcpG2Kv1xB17RDTAfHA7oQb00EC1bRL8mlk"
+}
+2023-10-26T15:58:02.518435+0800 INFO 接口返回内容为 >> {"message_type": 3, "subject": "询问测试", "message": "询问", "file": "http://admin.5istudy.online/media/message/images/c_SeUMzFc.png", "id": 102457, "add_time": "2023-10-26 15:58:02"}
+2023-10-26T15:58:02.530401+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T15:58:02.530401+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.531396+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4ODIsImVtYWlsIjpudWxsfQ.GZ_GoiJTxcpG2Kv1xB17RDTAfHA7oQb00EC1bRL8mlk"
+}
+2023-10-26T15:58:02.554089+0800 INFO 接口返回内容为 >> {"nums": 26, "goods": 66}
+2023-10-26T15:58:02.554089+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T15:58:02.567687+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:58:02.568317+0800 INFO sql返回{'id': 228586}
+2023-10-26T15:58:02.568317+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=66;
+2023-10-26T15:58:02.576300+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:58:02.576300+0800 INFO sql返回{'nums': 26}
+2023-10-26T15:58:02.587305+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T15:58:02.587305+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.588302+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4ODIsImVtYWlsIjpudWxsfQ.GZ_GoiJTxcpG2Kv1xB17RDTAfHA7oQb00EC1bRL8mlk"
+}
+2023-10-26T15:58:02.612755+0800 INFO 接口返回内容为 >> {"nums": 6, "goods": 3}
+2023-10-26T15:58:02.612755+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T15:58:02.628716+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:58:02.628716+0800 INFO sql返回{'id': 228586}
+2023-10-26T15:58:02.628716+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=3;
+2023-10-26T15:58:02.637074+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:58:02.637074+0800 INFO sql返回{'nums': 6}
+2023-10-26T15:58:02.650078+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-26T15:58:02.650078+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.651040+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4ODIsImVtYWlsIjpudWxsfQ.GZ_GoiJTxcpG2Kv1xB17RDTAfHA7oQb00EC1bRL8mlk"
+}
+2023-10-26T15:58:02.675974+0800 INFO 接口返回内容为 >> {"nums": 6, "goods": 7}
+2023-10-26T15:58:02.675974+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-26T15:58:02.688913+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:58:02.688913+0800 INFO sql返回{'id': 228586}
+2023-10-26T15:58:02.688913+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=7;
+2023-10-26T15:58:02.698318+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:58:02.698318+0800 INFO sql返回{'nums': 6}
+2023-10-26T15:58:02.702346+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:58:02.702346+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.795197+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg5MTE4ODIsImVtYWlsIjpudWxsfQ.GZ_GoiJTxcpG2Kv1xB17RDTAfHA7oQb00EC1bRL8mlk"}
+2023-10-26T15:58:02.808161+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:58:02.809120+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.904921+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-26T15:58:02.904921+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-26T15:58:02.908940+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:58:02.908940+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.936592+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-26T15:58:02.936592+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-26T15:58:02.939610+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:58:02.940616+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.951178+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-26T15:58:02.951178+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-26T15:58:02.955923+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-26T15:58:02.955923+0800 INFO 测试方法为: post
+2023-10-26T15:58:02.966976+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-26T15:58:02.967922+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-26T15:58:03.074237+0800 INFO 测试url为: http://admin.5istudy.online/code/
+2023-10-26T15:58:03.074237+0800 INFO 测试方法为: post
+2023-10-26T15:58:03.099136+0800 INFO 接口返回内容为 >> {"mobile": "18544773238"}
+2023-10-26T15:58:03.099136+0800 INFO 执行select类型sql语句 >>> SELECT code FROM users_verifycode WHERE mobile=18544773238 ORDER BY add_time DESC LIMIT 0,1;
+2023-10-26T15:58:03.107325+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:58:03.107865+0800 INFO sql返回{'code': '6104'}
+2023-10-26T15:58:03.107865+0800 INFO verifycode: >>>
+2023-10-26T15:58:03.107865+0800 INFO 测试url为: http://admin.5istudy.online/users/
+2023-10-26T15:58:03.107865+0800 INFO 测试方法为: post
+2023-10-26T15:58:03.216790+0800 INFO 接口返回内容为 >> {"username": "18544773238", "mobile": "18544773238", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg3MTAsInVzZXJuYW1lIjoiMTg1NDQ3NzMyMzgiLCJleHAiOjE2OTg5MTE4ODIsImVtYWlsIjpudWxsfQ.hFekVu2qjpbpyS66BgAVgZrfuUnerSakhXIqAuEMDTY", "name": "18544773238"}
+2023-10-26T15:58:03.259834+0800 INFO ------------------Mysql执行成功------------------
+2023-10-26T15:58:03.288272+0800 INFO ------------------Mysql执行成功------------------
+2023-10-26T15:58:03.297217+0800 INFO 执行select类型sql语句 >>> select count(1) as banners_num from goods_banner
+2023-10-26T15:58:03.305194+0800 INFO ------------------Mysql查询成功------------------
+2023-10-26T15:58:03.305194+0800 INFO sql返回{'banners_num': 4}
+2023-10-26T15:58:03.305194+0800 INFO 测试url为: http://admin.5istudy.online/banners/
+2023-10-26T15:58:03.305194+0800 INFO 测试方法为: get
+2023-10-26T15:58:03.325185+0800 INFO 接口返回内容为 >> [{"id": 1824, "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg", "index": 1, "add_time": "2022-10-27T08:33:00", "goods": 15}, {"id": 1821, "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg", "index": 2, "add_time": "2022-08-23T00:34:00", "goods": 82}, {"id": 1820, "image": "http://admin.5istudy.online/media/banner/banner1.jpg", "index": 3, "add_time": "2021-11-26T13:22:00", "goods": 4}, {"id": 1822, "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png", "index": 3, "add_time": "2022-09-22T10:53:00", "goods": 83}]

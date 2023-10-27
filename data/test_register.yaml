@@ -1,0 +1,19 @@
+test_register:
+  - story: 注册功能测试
+    description: 测试注册账号功能，步骤：1.输入手机号，获取手机验证码；2.输入验证码和密码，点击注册
+    severity: 'normal'
+    testcase: http://admin.5istudy.online/users/
+    verifycode:
+      url: code/
+      method: post
+      json:
+        mobile: ${random_phone()}
+    register:
+      url: users/
+      method: post
+    mark: regression
+
+test_fake:
+  - name: ${random_name()}
+    age: ${random_age()}
+    phone: ${random_phone()}

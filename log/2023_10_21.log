@@ -1,0 +1,198 @@
+2023-10-21T15:20:31.360835+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:20:31.362072+0800 INFO 测试方法为: post
+2023-10-21T15:20:31.492729+0800 INFO 返回不是json格式
+2023-10-21T15:20:31.497711+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:20:31.497711+0800 INFO 测试方法为: post
+2023-10-21T15:20:31.616074+0800 INFO 返回不是json格式
+2023-10-21T15:20:31.616074+0800 INFO 接口返回状态码不是2开头，请检查接口
+2023-10-21T15:20:31.623053+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:20:31.624049+0800 INFO 测试方法为: post
+2023-10-21T15:20:31.666045+0800 INFO 返回不是json格式
+2023-10-21T15:20:31.666554+0800 INFO 接口返回状态码不是2开头，请检查接口
+2023-10-21T15:20:31.669581+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:20:31.670541+0800 INFO 测试方法为: post
+2023-10-21T15:20:31.691175+0800 INFO 返回不是json格式
+2023-10-21T15:20:31.691682+0800 INFO 接口返回状态码不是2开头，请检查接口
+2023-10-21T15:20:31.694674+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:20:31.695671+0800 INFO 测试方法为: post
+2023-10-21T15:20:31.714565+0800 INFO 返回不是json格式
+2023-10-21T15:20:31.715072+0800 INFO 接口返回状态码不是2开头，请检查接口
+2023-10-21T15:23:56.484895+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:23:56.484895+0800 INFO 测试方法为: post
+2023-10-21T15:23:56.612163+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg0Nzc4MzUsImVtYWlsIjpudWxsfQ.AbLqyHH1rWBtj2JcMbtFy9CU05P9MhVIOx_Fy4GGF6A"}
+2023-10-21T15:23:56.627163+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:23:56.628105+0800 INFO 测试方法为: post
+2023-10-21T15:23:56.743441+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:23:56.744467+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:23:56.756421+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:23:56.756421+0800 INFO 测试方法为: post
+2023-10-21T15:23:56.800670+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:23:56.800670+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:23:56.804207+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:23:56.804207+0800 INFO 测试方法为: post
+2023-10-21T15:23:56.824231+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-21T15:23:56.824741+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:23:56.828822+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:23:56.828822+0800 INFO 测试方法为: post
+2023-10-21T15:23:56.853829+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-21T15:23:56.854339+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:29:19.896907+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:29:19.896907+0800 INFO 测试方法为: post
+2023-10-21T15:29:20.009367+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg0NzgxNTksImVtYWlsIjpudWxsfQ.bq3g12y-1MAmd4qnS4KKzj0XyMdWZHCMS-e8IWJ5IQA"}
+2023-10-21T15:29:20.020983+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:29:20.020983+0800 INFO 测试方法为: post
+2023-10-21T15:29:20.135337+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:29:20.136359+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:29:20.142332+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:29:20.142332+0800 INFO 测试方法为: post
+2023-10-21T15:29:20.179175+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:29:20.179720+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:29:20.184136+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:29:20.184136+0800 INFO 测试方法为: post
+2023-10-21T15:29:20.205235+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-21T15:29:20.205741+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:29:20.440437+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:29:20.440437+0800 INFO 测试方法为: post
+2023-10-21T15:29:20.468163+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-21T15:29:20.468674+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:30:47.670497+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:30:47.670497+0800 INFO 测试方法为: post
+2023-10-21T15:30:47.778350+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg0NzgyNDYsImVtYWlsIjpudWxsfQ.CBV2It28SCmCEuJwruuqpLwWoGuTlI7hP6mJQRrE-do"}
+2023-10-21T15:30:47.783889+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:30:47.783889+0800 INFO 测试方法为: post
+2023-10-21T15:30:47.894494+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:30:47.895001+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:30:48.134611+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:30:48.134611+0800 INFO 测试方法为: post
+2023-10-21T15:30:48.179178+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:30:48.179695+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:30:48.191658+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:30:48.191658+0800 INFO 测试方法为: post
+2023-10-21T15:30:48.215655+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-21T15:30:48.215655+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:30:48.225137+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:30:48.225137+0800 INFO 测试方法为: post
+2023-10-21T15:30:48.248019+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-21T15:30:48.248019+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:31:50.558817+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:31:50.558817+0800 INFO 测试方法为: post
+2023-10-21T15:31:50.671670+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg0NzgzMDksImVtYWlsIjpudWxsfQ.0070LLZeaq5EHzKRYT4v8bdYxDMups_PrQJErNiPR1A"}
+2023-10-21T15:31:50.678236+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:31:50.678236+0800 INFO 测试方法为: post
+2023-10-21T15:31:50.801365+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:31:50.801365+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:31:50.805355+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:31:50.805355+0800 INFO 测试方法为: post
+2023-10-21T15:31:50.850022+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:31:50.850022+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:31:50.854392+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:31:50.854392+0800 INFO 测试方法为: post
+2023-10-21T15:31:50.878887+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-21T15:31:50.878887+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:31:51.115377+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:31:51.116372+0800 INFO 测试方法为: post
+2023-10-21T15:31:51.143301+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-21T15:31:51.143879+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:34:34.910152+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:34:34.911158+0800 INFO 测试方法为: post
+2023-10-21T15:34:35.055443+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg0Nzg0NzQsImVtYWlsIjpudWxsfQ.M8XHaR-pbiKIxnQP2Wpk_s9a-RuiuP6YjnPD7ijQ6zQ"}
+2023-10-21T15:34:35.058433+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:34:35.059430+0800 INFO 测试方法为: post
+2023-10-21T15:34:35.184634+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:34:35.184634+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:34:35.197123+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:34:35.197123+0800 INFO 测试方法为: post
+2023-10-21T15:34:35.259114+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:34:35.259687+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:34:35.263367+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:34:35.263367+0800 INFO 测试方法为: post
+2023-10-21T15:34:35.287322+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-21T15:34:35.287829+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:34:35.537854+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:34:35.537854+0800 INFO 测试方法为: post
+2023-10-21T15:34:35.560451+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-21T15:34:35.560958+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:35:48.210193+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:35:48.210193+0800 INFO 测试方法为: post
+2023-10-21T15:35:48.337264+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg0Nzg1NDcsImVtYWlsIjpudWxsfQ.Aco4nAkd58Xg9NXI5gR1XRZ28pkv5o0YnXd_87cOvks"}
+2023-10-21T15:35:48.342247+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:35:48.342247+0800 INFO 测试方法为: post
+2023-10-21T15:35:53.356337+0800 INFO 返回不是json格式
+2023-10-21T15:35:53.357334+0800 INFO 接口返回状态码为200，请检查接口
+2023-10-21T15:35:53.593348+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:35:53.593348+0800 INFO 测试方法为: post
+2023-10-21T15:35:53.637037+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:35:53.637588+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:35:53.640613+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:35:53.641609+0800 INFO 测试方法为: post
+2023-10-21T15:35:53.662079+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-21T15:35:53.662079+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:35:53.666099+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:35:53.666099+0800 INFO 测试方法为: post
+2023-10-21T15:35:53.696420+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-21T15:35:53.696927+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:36:45.956740+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:36:45.956740+0800 INFO 测试方法为: post
+2023-10-21T15:36:46.076617+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg0Nzg2MDUsImVtYWlsIjpudWxsfQ.y4a8tuLth1sFhknPLPjNCUMyC-L2_MS0xFsNyPiANSY"}
+2023-10-21T15:36:46.079647+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:36:46.079647+0800 INFO 测试方法为: post
+2023-10-21T15:36:46.198535+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:36:46.198535+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:36:46.202507+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:36:46.202507+0800 INFO 测试方法为: post
+2023-10-21T15:36:46.244965+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T15:36:46.244965+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:36:46.250947+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:36:46.250947+0800 INFO 测试方法为: post
+2023-10-21T15:36:46.280216+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-21T15:36:46.280216+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T15:36:46.284419+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T15:36:46.285415+0800 INFO 测试方法为: post
+2023-10-21T15:36:46.306160+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-21T15:36:46.306667+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T16:04:35.835546+0800 INFO ------------------Mysql连接成功------------------
+2023-10-21T16:04:36.010571+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T16:04:36.010571+0800 INFO 测试方法为: post
+2023-10-21T16:04:47.204945+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg0ODAyODYsImVtYWlsIjpudWxsfQ.l6GNEU5tT4yJekfwFor7_PK3VrghHjBahMhcNvtRcnY"}
+2023-10-21T16:04:47.240204+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T16:04:47.241198+0800 INFO 测试方法为: post
+2023-10-21T16:04:47.343298+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T16:04:47.344341+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T16:04:47.371252+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T16:04:47.372462+0800 INFO 测试方法为: post
+2023-10-21T16:04:47.403514+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-21T16:04:47.403514+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T16:04:47.407114+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T16:04:47.407114+0800 INFO 测试方法为: post
+2023-10-21T16:04:47.421225+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-21T16:04:47.422213+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T16:04:47.435283+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-21T16:04:47.435283+0800 INFO 测试方法为: post
+2023-10-21T16:04:47.446972+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-21T16:04:47.447561+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-21T16:04:47.451364+0800 INFO 测试url为: http://admin.5istudy.online/code/
+2023-10-21T16:04:47.451364+0800 INFO 测试方法为: post
+2023-10-21T16:04:47.479405+0800 INFO 接口返回内容为 >> {"mobile": "15725919148"}
+2023-10-21T16:04:47.491287+0800 INFO ------------------Mysql查询成功------------------
+2023-10-21T16:04:47.491835+0800 INFO verifycode: >>>
+2023-10-21T16:04:47.491835+0800 INFO 测试url为: http://admin.5istudy.online/users/
+2023-10-21T16:04:47.491835+0800 INFO 测试方法为: post
+2023-10-21T16:04:47.605474+0800 INFO 接口返回内容为 >> {"username": "15725919148", "mobile": "15725919148", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1OTgsInVzZXJuYW1lIjoiMTU3MjU5MTkxNDgiLCJleHAiOjE2OTg0ODAyODYsImVtYWlsIjpudWxsfQ.WiOFhOdwL49g1cS3JQL20jpBxZAi3kNnc6AXPGVDAbY", "name": "15725919148"}
+2023-10-21T16:04:47.650744+0800 INFO ------------------Mysql执行成功------------------
+2023-10-21T16:04:47.695251+0800 INFO ------------------Mysql执行成功------------------
+2023-10-21T17:02:29.865298+0800 INFO ------------------Mysql连接成功------------------
+2023-10-21T17:04:04.529831+0800 INFO ------------------Mysql连接成功------------------
+2023-10-21T17:07:23.286261+0800 INFO ------------------Mysql连接成功------------------
+2023-10-21T17:07:23.479948+0800 INFO 执行select类型sql语句 >>> select count(1) as banners_num from goods_banner
+2023-10-21T17:07:23.488619+0800 INFO ------------------Mysql查询成功------------------
+2023-10-21T17:07:23.489267+0800 INFO sql返回{'banners_num': 4}
+2023-10-21T17:07:23.489478+0800 INFO 测试url为: http://admin.5istudy.online/banners/
+2023-10-21T17:07:23.489629+0800 INFO 测试方法为: get
+2023-10-21T17:07:23.521134+0800 INFO 接口返回内容为 >> [{"id": 1824, "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg", "index": 1, "add_time": "2022-10-27T08:33:00", "goods": 15}, {"id": 1821, "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg", "index": 2, "add_time": "2022-08-23T00:34:00", "goods": 82}, {"id": 1820, "image": "http://admin.5istudy.online/media/banner/banner1.jpg", "index": 3, "add_time": "2021-11-26T13:22:00", "goods": 4}, {"id": 1822, "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png", "index": 3, "add_time": "2022-09-22T10:53:00", "goods": 83}]
+2023-10-21T17:10:34.714123+0800 INFO ------------------Mysql连接成功------------------
+2023-10-21T17:10:34.907719+0800 INFO 执行select类型sql语句 >>> select count(1) as banners_num from goods_banner
+2023-10-21T17:10:34.916818+0800 INFO ------------------Mysql查询成功------------------
+2023-10-21T17:10:34.917411+0800 INFO sql返回{'banners_num': 4}
+2023-10-21T17:10:34.918000+0800 INFO 测试url为: http://admin.5istudy.online/banners/
+2023-10-21T17:10:34.918589+0800 INFO 测试方法为: get
+2023-10-21T17:10:34.957019+0800 INFO 接口返回内容为 >> [{"id": 1824, "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg", "index": 1, "add_time": "2022-10-27T08:33:00", "goods": 15}, {"id": 1821, "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg", "index": 2, "add_time": "2022-08-23T00:34:00", "goods": 82}, {"id": 1820, "image": "http://admin.5istudy.online/media/banner/banner1.jpg", "index": 3, "add_time": "2021-11-26T13:22:00", "goods": 4}, {"id": 1822, "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png", "index": 3, "add_time": "2022-09-22T10:53:00", "goods": 83}]

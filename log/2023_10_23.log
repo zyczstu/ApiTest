@@ -1,0 +1,233 @@
+2023-10-23T18:47:40.484758+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T18:47:40.487776+0800 INFO 测试方法为: post
+2023-10-23T18:47:40.676868+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NjI4NjAsImVtYWlsIjpudWxsfQ.SXfYGVG1WCTgVJHBGrmWDmvYH8Z7UdjXdLY1rdWltek"}
+2023-10-23T18:47:40.685484+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T18:47:40.685484+0800 INFO 测试方法为: post
+2023-10-23T18:47:40.789548+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-23T18:47:40.790263+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T18:47:40.794489+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T18:47:40.794489+0800 INFO 测试方法为: post
+2023-10-23T18:47:40.830761+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-23T18:47:40.830761+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T18:47:40.834749+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T18:47:40.834749+0800 INFO 测试方法为: post
+2023-10-23T18:47:40.854714+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-23T18:47:40.855226+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T18:47:40.859213+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T18:47:40.859213+0800 INFO 测试方法为: post
+2023-10-23T18:47:40.880306+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-23T18:47:40.880306+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T20:28:37.487603+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:29:37.826222+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:29:56.793114+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:31:18.065664+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:31:18.065664+0800 INFO 测试方法为: post
+2023-10-23T20:31:18.285097+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NjkwNzgsImVtYWlsIjpudWxsfQ.yqEg3-8pmygAuHwTFbSBDHsH0XdR3lkZ0KiJ5boFpsI"}
+2023-10-23T20:31:18.290669+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:31:18.291668+0800 INFO 测试方法为: post
+2023-10-23T20:31:18.454430+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-23T20:31:18.454430+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T20:31:18.469726+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:31:18.470725+0800 INFO 测试方法为: post
+2023-10-23T20:31:18.518007+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-23T20:31:18.519003+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T20:31:18.525962+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:31:18.525962+0800 INFO 测试方法为: post
+2023-10-23T20:31:18.553234+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-23T20:31:18.553234+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T20:31:18.557590+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:31:18.557590+0800 INFO 测试方法为: post
+2023-10-23T20:31:18.577972+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-23T20:31:18.577972+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T20:31:33.673633+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:31:53.136977+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:32:05.824065+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:35:11.253269+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:36:19.960727+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:39:16.338753+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:40:30.051739+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:40:30.052736+0800 INFO 测试方法为: post
+2023-10-23T20:40:30.246732+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2Njk2MzAsImVtYWlsIjpudWxsfQ.UyT0vYS-kXHqF_2SvtDoz9E6pjJPJr3JItfGbtggNak"}
+2023-10-23T20:40:30.257802+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:40:30.257802+0800 INFO 测试方法为: post
+2023-10-23T20:40:30.366674+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-23T20:40:30.367742+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T20:40:30.614942+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:40:30.614942+0800 INFO 测试方法为: post
+2023-10-23T20:40:30.655803+0800 INFO 接口返回内容为 >> {"non_field_errors": ["无法使用提供的认证信息登录。"]}
+2023-10-23T20:40:30.655803+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T20:40:30.663892+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:40:30.663892+0800 INFO 测试方法为: post
+2023-10-23T20:40:30.686896+0800 INFO 接口返回内容为 >> {"username": ["该字段不能为 null。"]}
+2023-10-23T20:40:30.686896+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T20:40:30.695633+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:40:30.695633+0800 INFO 测试方法为: post
+2023-10-23T20:40:30.719988+0800 INFO 接口返回内容为 >> {"password": ["该字段不能为 null。"]}
+2023-10-23T20:40:30.720541+0800 INFO 接口返回状态码为400，请检查接口
+2023-10-23T20:41:06.752636+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:46:43.611120+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:46:43.966212+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:46:43.966212+0800 INFO 测试方法为: post
+2023-10-23T20:46:44.082877+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzAwMDQsImVtYWlsIjpudWxsfQ.aVNEoP5Oyo-soThbnAey39Hd4VRoFe-00kI87Usl5MU"}
+2023-10-23T20:47:30.118817+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T20:47:30.479521+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T20:47:30.479521+0800 INFO 测试方法为: post
+2023-10-23T20:47:30.598419+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzAwNTAsImVtYWlsIjpudWxsfQ.Plckq0D9VAu8-sh2gJ2EqqNK1JceVbwc1v8boBdSjW0"}
+2023-10-23T21:13:54.347875+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:14:07.216612+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:14:07.574565+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T21:14:07.575565+0800 INFO 测试方法为: post
+2023-10-23T21:14:07.687000+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzE2NDcsImVtYWlsIjpudWxsfQ.rUICM9lfQ7t9AjG-xeW2RA8kQdYqOgK7SupGIbhOfoo"}
+2023-10-23T21:14:07.692859+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-23T21:14:07.692859+0800 INFO 测试方法为: post
+2023-10-23T21:14:07.692859+0800 INFO headers参数为
+{
+  "token": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzE2NDcsImVtYWlsIjpudWxsfQ.rUICM9lfQ7t9AjG-xeW2RA8kQdYqOgK7SupGIbhOfoo"
+}
+2023-10-23T21:14:07.716919+0800 INFO 接口返回内容为 >> {"detail": "身份认证信息未提供。"}
+2023-10-23T21:14:07.716919+0800 INFO 接口返回状态码为401，请检查接口
+2023-10-23T21:15:24.513611+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:15:24.871373+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T21:15:24.872339+0800 INFO 测试方法为: post
+2023-10-23T21:15:24.994126+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzE3MjUsImVtYWlsIjpudWxsfQ.J1zvMntmrplZNnnn56HXR3BvizqS7uOMTyeaTYyN2Nc"}
+2023-10-23T21:15:24.999076+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-23T21:15:25.000073+0800 INFO 测试方法为: post
+2023-10-23T21:15:25.000073+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzE3MjUsImVtYWlsIjpudWxsfQ.J1zvMntmrplZNnnn56HXR3BvizqS7uOMTyeaTYyN2Nc"
+}
+2023-10-23T21:15:25.044343+0800 INFO 接口返回内容为 >> {"nums": 4, "goods": 66}
+2023-10-23T21:22:48.517405+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:22:48.722574+0800 INFO 测试url为: http://admin.5istudy.online/code/
+2023-10-23T21:22:48.723571+0800 INFO 测试方法为: post
+2023-10-23T21:22:48.772289+0800 INFO 接口返回内容为 >> {"mobile": "13514149452"}
+2023-10-23T21:22:48.772835+0800 INFO 执行select类型sql语句 >>> SELECT code FROM users_verifycode WHERE mobile=13514149452 ORDER BY add_time DESC LIMIT 0,1;
+2023-10-23T21:22:48.779738+0800 INFO ------------------Mysql查询成功------------------
+2023-10-23T21:22:48.779738+0800 INFO sql返回{'code': '8955'}
+2023-10-23T21:22:48.779738+0800 INFO verifycode: >>>
+2023-10-23T21:22:48.780286+0800 INFO 测试url为: http://admin.5istudy.online/users/
+2023-10-23T21:22:48.780286+0800 INFO 测试方法为: post
+2023-10-23T21:22:48.882287+0800 INFO 接口返回内容为 >> {"username": "13514149452", "mobile": "13514149452", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg2NDEsInVzZXJuYW1lIjoiMTM1MTQxNDk0NTIiLCJleHAiOjE2OTg2NzIxNjgsImVtYWlsIjpudWxsfQ.IUb9hLFpsfq9LbQq3QGZTtgKAqPtT5VY9wU7Xn4xFww", "name": "13514149452"}
+2023-10-23T21:22:48.922541+0800 INFO ------------------Mysql执行成功------------------
+2023-10-23T21:22:48.949159+0800 INFO ------------------Mysql执行成功------------------
+2023-10-23T21:24:06.589422+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:24:06.960496+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-23T21:24:06.961494+0800 INFO 测试方法为: post
+2023-10-23T21:24:06.961494+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzE3MjUsImVtYWlsIjpudWxsfQ.J1zvMntmrplZNnnn56HXR3BvizqS7uOMTyeaTYyN2Nc"
+}
+2023-10-23T21:24:06.998956+0800 INFO 接口返回内容为 >> {"nums": 5, "goods": 66}
+2023-10-23T21:24:37.421024+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:24:37.781688+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-23T21:24:37.781688+0800 INFO 测试方法为: post
+2023-10-23T21:24:37.781688+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzE3MjUsImVtYWlsIjpudWxsfQ.J1zvMntmrplZNnnn56HXR3BvizqS7uOMTyeaTYyN2Nc"
+}
+2023-10-23T21:24:37.824542+0800 INFO 接口返回内容为 >> {"nums": 6, "goods": 66}
+2023-10-23T21:26:59.752848+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:27:02.850561+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:27:47.277957+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:28:25.833831+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:29:14.218451+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:29:43.460346+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:31:16.229212+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:31:48.420961+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:31:48.779540+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T21:31:48.779540+0800 INFO 测试方法为: post
+2023-10-23T21:31:48.893404+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzI3MDgsImVtYWlsIjpudWxsfQ.PtbyZqfXf7EvamyFLluCcaC90p84YRPCAUHRz3Myadk"}
+2023-10-23T21:31:48.918896+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-23T21:31:48.918896+0800 INFO 测试方法为: post
+2023-10-23T21:31:48.918896+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzI3MDgsImVtYWlsIjpudWxsfQ.PtbyZqfXf7EvamyFLluCcaC90p84YRPCAUHRz3Myadk"
+}
+2023-10-23T21:31:48.967458+0800 INFO 接口返回内容为 >> {"nums": 7, "goods": 66}
+2023-10-23T21:32:38.444670+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:32:38.801034+0800 INFO 测试url为: http://admin.5istudy.online/login/
+2023-10-23T21:32:38.801034+0800 INFO 测试方法为: post
+2023-10-23T21:32:38.909405+0800 INFO 接口返回内容为 >> {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzI3NTgsImVtYWlsIjpudWxsfQ.jF0Ql2Br5sXZpisMZcpKFftaxMvh4_JJXzD86CF9gNg"}
+2023-10-23T21:32:38.917586+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-23T21:32:38.917586+0800 INFO 测试方法为: post
+2023-10-23T21:32:38.918583+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzI3NTgsImVtYWlsIjpudWxsfQ.jF0Ql2Br5sXZpisMZcpKFftaxMvh4_JJXzD86CF9gNg"
+}
+2023-10-23T21:32:38.950089+0800 INFO 接口返回内容为 >> {"nums": 8, "goods": 66}
+2023-10-23T21:32:38.951084+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-23T21:32:38.963184+0800 INFO ------------------Mysql查询成功------------------
+2023-10-23T21:32:38.963805+0800 INFO sql返回{'id': 228586}
+2023-10-23T21:32:38.963805+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id={'id': 228586} and goods_id=66;
+2023-10-23T21:32:38.972309+0800 WARNING ------------------Mysql查询失败------------------
+2023-10-23T21:34:43.071033+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:34:43.235287+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-23T21:34:43.248982+0800 INFO ------------------Mysql查询成功------------------
+2023-10-23T21:34:43.248982+0800 INFO sql返回{'id': 228586}
+2023-10-23T21:34:43.249609+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id={'id': 228586} and goods_id=66;
+2023-10-23T21:34:43.258250+0800 WARNING ------------------Mysql查询失败------------------
+2023-10-23T21:35:35.458138+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:35:35.617065+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-23T21:35:35.632065+0800 INFO ------------------Mysql查询成功------------------
+2023-10-23T21:35:35.632065+0800 INFO sql返回{'id': 228586}
+2023-10-23T21:35:35.632065+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=66;
+2023-10-23T21:35:35.640096+0800 INFO ------------------Mysql查询成功------------------
+2023-10-23T21:35:35.640096+0800 INFO sql返回{'nums': 8}
+2023-10-23T21:36:05.020790+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:36:05.381527+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-23T21:36:05.381527+0800 INFO 测试方法为: post
+2023-10-23T21:36:05.381527+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzI3NTgsImVtYWlsIjpudWxsfQ.jF0Ql2Br5sXZpisMZcpKFftaxMvh4_JJXzD86CF9gNg"
+}
+2023-10-23T21:36:05.424411+0800 INFO 接口返回内容为 >> {"nums": 9, "goods": 66}
+2023-10-23T21:36:05.424411+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-23T21:36:05.438333+0800 INFO ------------------Mysql查询成功------------------
+2023-10-23T21:36:05.438840+0800 INFO sql返回{'id': 228586}
+2023-10-23T21:36:05.438840+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id={'id': 228586} and goods_id=66;
+2023-10-23T21:36:05.446517+0800 WARNING ------------------Mysql查询失败------------------
+2023-10-23T21:36:37.329556+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:36:37.693009+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-23T21:36:37.693009+0800 INFO 测试方法为: post
+2023-10-23T21:36:37.693009+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzI3NTgsImVtYWlsIjpudWxsfQ.jF0Ql2Br5sXZpisMZcpKFftaxMvh4_JJXzD86CF9gNg"
+}
+2023-10-23T21:36:37.734107+0800 INFO 接口返回内容为 >> {"nums": 10, "goods": 66}
+2023-10-23T21:36:37.734107+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-23T21:36:37.746176+0800 INFO ------------------Mysql查询成功------------------
+2023-10-23T21:36:37.746498+0800 INFO sql返回{'id': 228586}
+2023-10-23T21:36:37.746638+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=66;
+2023-10-23T21:36:37.755080+0800 INFO ------------------Mysql查询成功------------------
+2023-10-23T21:36:37.755080+0800 INFO sql返回{'nums': 10}
+2023-10-23T21:38:26.716683+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:38:26.912331+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-23T21:38:26.912331+0800 INFO 测试方法为: post
+2023-10-23T21:38:26.912331+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzI3NTgsImVtYWlsIjpudWxsfQ.jF0Ql2Br5sXZpisMZcpKFftaxMvh4_JJXzD86CF9gNg"
+}
+2023-10-23T21:38:26.953869+0800 INFO 接口返回内容为 >> {"nums": 11, "goods": 66}
+2023-10-23T21:38:54.460175+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:38:54.662421+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-23T21:38:54.662421+0800 INFO 测试方法为: post
+2023-10-23T21:38:54.662421+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzI3NTgsImVtYWlsIjpudWxsfQ.jF0Ql2Br5sXZpisMZcpKFftaxMvh4_JJXzD86CF9gNg"
+}
+2023-10-23T21:38:54.702235+0800 INFO 接口返回内容为 >> {"nums": 12, "goods": 66}
+2023-10-23T21:41:17.355579+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:41:36.107823+0800 INFO ------------------Mysql连接成功------------------
+2023-10-23T21:41:36.310712+0800 INFO 测试url为: http://admin.5istudy.online/shopcarts/
+2023-10-23T21:41:36.310712+0800 INFO 测试方法为: post
+2023-10-23T21:41:36.310712+0800 INFO headers参数为
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMjg1ODYsInVzZXJuYW1lIjoiMTgyNjE3Nzg5MjMiLCJleHAiOjE2OTg2NzI3NTgsImVtYWlsIjpudWxsfQ.jF0Ql2Br5sXZpisMZcpKFftaxMvh4_JJXzD86CF9gNg"
+}
+2023-10-23T21:41:36.350706+0800 INFO 接口返回内容为 >> {"nums": 13, "goods": 66}
+2023-10-23T21:41:36.350706+0800 INFO 执行select类型sql语句 >>> SELECT id FROM users_userprofile WHERE mobile=18261778923;
+2023-10-23T21:41:36.363650+0800 INFO ------------------Mysql查询成功------------------
+2023-10-23T21:41:36.363650+0800 INFO sql返回{'id': 228586}
+2023-10-23T21:41:36.364186+0800 INFO 执行select类型sql语句 >>> SELECT nums FROM trade_shoppingcart WHERE user_id=228586 and goods_id=66;
+2023-10-23T21:41:36.390926+0800 INFO ------------------Mysql查询成功------------------
+2023-10-23T21:41:36.390926+0800 INFO sql返回{'nums': 13}
