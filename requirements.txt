@@ -6,3 +6,5 @@ pytest==7.3.1
 PyYAML
 Requests==2.31.0
 pytest-rerunfailures
+pytest-html
+allure-pytest==2.17.3
